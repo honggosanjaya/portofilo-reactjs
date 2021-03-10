@@ -21,4 +21,9 @@
   .service__card {
       margin-top: 30px;
   }
+  .service__card p {
+    font-size: 12px;
+    text-align: center;
+}
+  
 }

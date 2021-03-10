@@ -1,7 +1,7 @@
 .jumbotron{
 	background-image: url('../../images/jumbotron.jpg');
 	background-size: cover;
-	height: 100vh;
+	height: 60vh;
 	text-align: center;
 	position: relative;
 }
@@ -27,7 +27,7 @@
 @media (min-width: 992px){
 	.jumbotron{
 		margin-top: -75px;
-		height: 640px;
+		height: 100vh;
 	}
 
 	.jumbotron .display-4{

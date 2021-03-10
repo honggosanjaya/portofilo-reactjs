@@ -23,7 +23,7 @@ body{
     padding-top: 6rem;
 }
 
-img{
+.overflow img{
     height: 200px;
 }
 
@@ -38,4 +38,10 @@ img{
 
 .card-img-top:hover{
     transform: scale(1.8);
+}
+
+@media (max-width: 576px) {
+    .card-body{
+        padding: 1rem 0 !important;
+    }
 }

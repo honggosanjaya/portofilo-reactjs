@@ -1,0 +1,51 @@
+.knowledge .title::after{
+    content: "what i know";
+}
+
+.knowledge .knowledge-content .info{
+    margin-top: 50px;
+}
+
+.knowledge .knowledge-content span{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.knowledge__text{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: crimson;
+}
+
+
+/*-----------------------------------------------*/
+#progressbar {
+  background-color: gray;
+  width: 90%;
+  height: 5px;
+}
+
+.info #progressbar>div{
+  background-color: crimson;
+  height: 5px;
+}
+
+.info #progressbar .html{
+    width: 90%;
+}
+
+.info #progressbar .css{
+    width: 80%;
+}
+
+.info #progressbar .js{
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+	.knowledge{
+        margin-top: -150px;
+    }
+}

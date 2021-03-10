@@ -3,10 +3,6 @@
 	z-index: 1;
 }
 
-.nav-link.active {
-	border-bottom: 3px solid #333;
-}
-
 .navbar-brand{
 	font-family: viga;
 	font-size: 32;
@@ -22,5 +18,6 @@
 		text-transform: uppercase;
 		margin-right: 30px;
         color: rgb(199, 199, 199) !important;
+		border: none;
     }
 }
