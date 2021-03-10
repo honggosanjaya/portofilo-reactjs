@@ -1,0 +1,28 @@
+.footer{
+    background-color: #2A3B47;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+
+.footer__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__data p{
+    font-size: 15px;
+    color: #697477;
+}
+
+.footer__social i{
+    color: #697477;
+    padding: 5px;
+}
+
+.footer__social i:hover{
+    color: #FAFAFF;
+    cursor: pointer;
+}

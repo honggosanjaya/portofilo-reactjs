@@ -1,0 +1,26 @@
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+
+.nav-link.active {
+	border-bottom: 3px solid #333;
+}
+
+.navbar-brand{
+	font-family: viga;
+	font-size: 32;
+}
+
+@media (min-width: 992px){
+	.navbar-brand, .nav-link{
+		color: rgb(109, 76, 76) !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	}
+
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+        color: rgb(199, 199, 199) !important;
+    }
+}
